@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.items-item {
+  background-color: bisque;
+  padding: 0 1rem;
+  min-height: 22rem;
+  min-width: 12rem;
+  width: 25%;
+}
+
+.items-item:hover {
+  background-color: rgb(254, 236, 215);
+}
+
+img {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+form {
+  margin-top: 5rem;
+}
+
+.submit {
+  margin-top: 1rem;
+}
